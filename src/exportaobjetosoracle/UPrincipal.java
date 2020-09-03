@@ -102,7 +102,7 @@ public class UPrincipal extends javax.swing.JFrame {
         jProgressBar.setToolTipText("Barra de Progresso.");
         jProgressBar.setStringPainted(true);
 
-        jLabel1.setText("by hauchoa@gmail.com");
+        jLabel1.setText("by Hermano Uchôa - github.com/hermanouchoa");
 
         jTabbedPanePrincipal.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         jTabbedPanePrincipal.addChangeListener(new javax.swing.event.ChangeListener() {

@@ -7,7 +7,6 @@ package conexao;
 import java.sql.*;
 
 public class ConexaoOracle {
-    //jdbc:oracle:thin:@192.168.1.57:1521:tasy_tst
     private String url = "";  
     private String usr = "";  
     private String pwd = "";      
