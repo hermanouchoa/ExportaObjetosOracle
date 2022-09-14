@@ -189,7 +189,7 @@ public class Controladora {
     public void criarArquivoTxtObjetoOracle(ObjetoOracle objOracle, String localSalvar) throws Exception{
         try {
             String conteudo = objOracle.getCodigoObjeto();
-            String nome     = objOracle.getNomeObjeto()+".txt";            
+            String nome     = objOracle.getNomeObjeto()+".sql";
             FileWriter arquivoTxt = new FileWriter(localSalvar+"/"+nome);
             arquivoTxt.write(conteudo);
             arquivoTxt.close();            
